@@ -18,21 +18,21 @@
 
 - 让我们从头开始一步步将这些东西添加到我们的react版本中
 
-  - 1. The `createElement` Function
+  1. The `createElement` Function
 
-  - 2. The `render` Function
+  2. The `render` Function
 
-  - 3. Concurrent Mode
+  3. Concurrent Mode
 
-  - 4. Fibers
+  4. Fibers
 
-  - 5. Render and Commit Phases
+  5. Render and Commit Phases
 
-  - 6. Reconciliation
+  6. Reconciliation
 
-  - 7. Function Components
+  7. Function Components
 
-  - 8. Hooks
+  8. Hooks
 
     
 
@@ -120,3 +120,4 @@
 
 > *为了避免混淆，使用 "element" 来表示React element，使用 "node" 来表示DOM element
 
+- 疑问：添加children属性哪里，应该是要采取递归添加节点才对呀？
