@@ -19,27 +19,17 @@
 - 让我们从头开始一步步将这些东西添加到我们的react版本中
 
   1 . The `createElement` Function
-
   2 . The `render` Function
-
   3 . Concurrent Mode
-
   4 . Fibers
-
   5 . Render and Commit Phases
-
   6 . Reconciliation
-
   7 . Function Components
-
   8 . Hooks
-
     
-
+    
 - 但首先让我们来复习一些基础概念。如果你对React，JSX and DOM element如何工作有了清晰的了解，你可以跳过这部分
-
   - 我们将使用此React app（仅仅三行代码）
-
 ```javascript
   // 1. defines a React Element（定义虚拟DOM）
   const element = <h1 title="foo">Hello</h1>;
@@ -50,8 +40,6 @@
   // 3. renders the React element into the container
   ReactDOM.render(element,container);
 ```
-
-
 
 > vanilla JS 仅仅是一个俚语，就是纯 JS，🐕
 
@@ -72,15 +60,10 @@
 ```
 
 - 如下就是调用 `createElement` 返回的元素，它有type和props属性
-
   （当然它还有更多的属性，但我们只关心这两个属性）
-
   - `type是一个string`，用于指定我们需要创建的DOM节点类型。它也是我们创建HTML元素时传递给document.createElement的tagName。`type还可以是一个function`
-
   - `prop是一个object`，它有JSX中所有的属性，以及一个children
-
     - 在子节点仅有一个时，`children是一个string of TagName`
-
       其它情况则是`包含所有子节点TagName的数组`
 
 ```javascript
@@ -96,10 +79,7 @@
       
 ```
 
-
-
 - 下一步，我们需要用原生JS来替换掉ReactDOM.render
-
 > render的作用是将 Virtual DOM 转化为 DOM Node，并且将其挂载到指定的DOM元素上
 
 ```javascript
