@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T13:01:46.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="4XQRQ6SB9EdNbcFVZJCK" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-19T13:03:42.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hkBV4HB9chX5CuLexbae" version="14.6.13" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="733" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,13 +175,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---36" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;副垃圾回收器&lt;/b&gt;（Minor GC）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UbmPZLx2t8qapg2Agc---1" vertex="1">
-          <mxGeometry x="253.5" y="130" width="323" height="50" as="geometry" />
+          <mxGeometry x="290" y="150" width="323" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---41" value="经过&lt;b&gt;两次&lt;font style=&quot;font-size: 12px&quot;&gt;Scavenger算法&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;还存活的新生区对象&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;晋升&lt;/b&gt;&lt;/font&gt;到老生区&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UbmPZLx2t8qapg2Agc---1" vertex="1">
-          <mxGeometry x="61.5" y="750" width="210" height="40" as="geometry" />
+          <mxGeometry x="61.5" y="720" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-578" value="因为Scavenge算法需要有序移动存活对象到idle区域，&lt;br&gt;如果新生区设置的非常大，&lt;font color=&quot;#ff0000&quot;&gt;那么每次移动的过程就会耗时很久，&lt;/font&gt;&lt;br&gt;因此为了执行效率，所以将新生区设&lt;font color=&quot;#0000ff&quot;&gt;置的比较小&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="UbmPZLx2t8qapg2Agc---1" vertex="1">
-          <mxGeometry x="300.75" y="520" width="360" height="80" as="geometry" />
+          <mxGeometry x="235" y="515" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-579" value="" style="group" parent="UbmPZLx2t8qapg2Agc---1" vertex="1" connectable="0">
           <mxGeometry y="960" width="820" height="840" as="geometry" />
@@ -202,7 +202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---43" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;主垃圾回收器&lt;/b&gt;（Major GC）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qEigKj8mjA2axg2Si7eS-579" vertex="1">
-          <mxGeometry x="261.9164619164619" width="446.2653562653564" height="52.50000000000001" as="geometry" />
+          <mxGeometry x="189.9964619164619" width="446.2653562653564" height="52.50000000000001" as="geometry" />
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-289" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="qEigKj8mjA2axg2Si7eS-579" vertex="1">
           <mxGeometry x="80.5896805896806" y="189.00000000000003" width="241.7690417690418" height="210.00000000000003" as="geometry" />
@@ -790,7 +790,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-580" value="而老生区设计的初衷就是为了存放`活的久`的对象和占用空间&lt;br&gt;比较大的对象，若继续采用Scavenge算法&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;1. 移动大对象会耗费较多的时间&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;2. 需要划分为两个相同的区域from space和to space&lt;br&gt;&lt;/font&gt;&lt;br&gt;因此主垃圾回收器选择了&lt;font color=&quot;#ff0000&quot;&gt;Mark-Sweep&lt;/font&gt;和&lt;font color=&quot;#ff0000&quot;&gt;Mark-Compact&lt;/font&gt;来配合使用" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="UbmPZLx2t8qapg2Agc---1" vertex="1">
-          <mxGeometry x="271.5" y="830" width="418.5" height="110" as="geometry" />
+          <mxGeometry x="204" y="850" width="418.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-786" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="UbmPZLx2t8qapg2Agc---1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1228,53 +1228,53 @@
           <mxGeometry x="180" width="60" height="43" as="geometry" />
         </mxCell>
         <mxCell id="YLQmncQ9anunfVOU0oll-0" value="" style="group" vertex="1" connectable="0" parent="UbmPZLx2t8qapg2Agc---1">
-          <mxGeometry y="180" width="830" height="310" as="geometry" />
+          <mxGeometry y="200" width="830" height="280" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;strokeColor=#CC00CC;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry width="830" height="310" as="geometry" />
+          <mxGeometry width="830" height="280" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;from space&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="41" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="41" y="72.25806451612904" width="120" height="72.25806451612904" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;to space&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="161" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="161" y="72.25806451612904" width="120" height="72.25806451612904" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---4" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;新生代&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="11" y="45" width="110" height="20" as="geometry" />
+          <mxGeometry x="11" y="40.64516129032258" width="110" height="18.06451612903226" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;" parent="YLQmncQ9anunfVOU0oll-0" source="UbmPZLx2t8qapg2Agc---9" target="UbmPZLx2t8qapg2Agc---2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="101" y="320" as="targetPoint" />
+            <mxPoint x="101" y="289.03225806451616" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---9" value="新加入的对象" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="51" y="200" width="100" height="60" as="geometry" />
+          <mxGeometry x="51" y="180.6451612903226" width="100" height="54.193548387096776" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---13" value="&lt;span style=&quot;font-size: 14px&quot;&gt;from space&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="681" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="681" y="72.25806451612904" width="120" height="72.25806451612904" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;to space&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="561" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="561" y="72.25806451612904" width="120" height="72.25806451612904" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;" parent="YLQmncQ9anunfVOU0oll-0" source="UbmPZLx2t8qapg2Agc---20" target="UbmPZLx2t8qapg2Agc---13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="741" y="320" as="targetPoint" />
+            <mxPoint x="741" y="289.03225806451616" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---20" value="新加入的对象" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="691" y="200" width="100" height="60" as="geometry" />
+          <mxGeometry x="691" y="180.6451612903226" width="100" height="54.193548387096776" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---23" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#6c8ebf;strokeWidth=1;startArrow=block;fillColor=#dae8fc;" parent="YLQmncQ9anunfVOU0oll-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350.5" y="110" as="sourcePoint" />
-            <mxPoint x="491.5" y="110" as="targetPoint" />
+            <mxPoint x="350.5" y="99.35483870967742" as="sourcePoint" />
+            <mxPoint x="491.5" y="99.35483870967742" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---24" value="存放朝生夕死的对象&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="79.5" y="40" width="153" height="30" as="geometry" />
+          <mxGeometry x="79.5" y="36.12903225806452" width="153" height="27.096774193548388" as="geometry" />
         </mxCell>
         <mxCell id="UbmPZLx2t8qapg2Agc---32" value="当from space快被`填充`满时，&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1.&amp;nbsp; 先对from space进行mark-sweep&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2. 然后将存活的对象从from space&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;移动&lt;/b&gt;&lt;/font&gt;到to space&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YLQmncQ9anunfVOU0oll-0" vertex="1">
-          <mxGeometry x="281" y="120" width="320" height="80" as="geometry" />
+          <mxGeometry x="281" y="108.38709677419355" width="320" height="72.25806451612904" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
