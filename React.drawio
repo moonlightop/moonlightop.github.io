@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T13:01:29.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="FNlNI-mtHVM4xIdjAOt9" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-19T13:01:46.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="4XQRQ6SB9EdNbcFVZJCK" version="14.6.13" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="733" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
           <mxGeometry x="61.5" y="750" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-578" value="因为Scavenge算法需要有序移动存活对象到idle区域，&lt;br&gt;如果新生区设置的非常大，&lt;font color=&quot;#ff0000&quot;&gt;那么每次移动的过程就会耗时很久，&lt;/font&gt;&lt;br&gt;因此为了执行效率，所以将新生区设&lt;font color=&quot;#0000ff&quot;&gt;置的比较小&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="UbmPZLx2t8qapg2Agc---1" vertex="1">
-          <mxGeometry x="240" y="520" width="360" height="80" as="geometry" />
+          <mxGeometry x="300.75" y="520" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qEigKj8mjA2axg2Si7eS-579" value="" style="group" parent="UbmPZLx2t8qapg2Agc---1" vertex="1" connectable="0">
           <mxGeometry y="960" width="820" height="840" as="geometry" />
