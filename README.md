@@ -3,7 +3,7 @@
 > 慢慢沉淀吧，想要学习一个框架的源码并不是一件简单的事，自己并不是一个聪明的人<br>
 > 因此需要投入更多的时间进入其中
 ## 学习规划
-- 理解并复现[Build your own react](https://pomb.us/build-your-own-react/)的mini react
+- 理解并复现[Build your own react](https://pomb.us/build-your-own-react/)的mini react（✔）
 - 阅读电子书[react技术揭秘](https://react.iamkasong.com/)，多看看卡颂的文章（真的如获至宝）
 - 关注react核心成员的twiter 、blog ...来了解前沿知识和react的设计理念（这个感觉会完全看不懂(⊙﹏⊙)）
 ## 期望
