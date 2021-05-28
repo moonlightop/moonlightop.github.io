@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T09:01:17.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aNXf2m6nqYIy-floTgyf" version="14.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-28T09:08:12.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="I3QOgbZsRNxhvrfgheN0" version="14.7.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="581" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1492,7 +1492,7 @@
         <mxCell id="7fZmxvt1phpdELhRz6tv-0" />
         <mxCell id="7fZmxvt1phpdELhRz6tv-1" parent="7fZmxvt1phpdELhRz6tv-0" />
         <mxCell id="bbiFsUU4ZyLVrX_8pEep-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry y="1280" width="870" height="440" as="geometry" />
+          <mxGeometry y="1280" width="930" height="530" as="geometry" />
         </mxCell>
         <mxCell id="7fZmxvt1phpdELhRz6tv-2" value="&lt;font style=&quot;font-size: 13px&quot;&gt;起始行（start line）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="120" y="110" width="200" height="40" as="geometry" />
@@ -1754,8 +1754,14 @@
         <mxCell id="bbiFsUU4ZyLVrX_8pEep-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="7fZmxvt1phpdELhRz6tv-1" source="bbiFsUU4ZyLVrX_8pEep-27" target="bbiFsUU4ZyLVrX_8pEep-31">
           <mxGeometry x="50" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="bbiFsUU4ZyLVrX_8pEep-46" value="1. 浏览器一般支持所有编码格式和压缩方式，&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;因此Accept-Encoding以及Accept-Charset不会携带&lt;br&gt;&lt;br&gt;2. 由于可以通过字符编码方式推出使用的语言，&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;因此Content-Language一般不携带&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+        <mxCell id="bbiFsUU4ZyLVrX_8pEep-46" value="1. 浏览器一般支持多种编码格式，&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;Accept-Charset不会携带&lt;br&gt;&lt;br&gt;2. 由于可以通过字符编码方式推出使用的语言，&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;因此Content-Language一般不携带" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="20" y="1290" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bbiFsUU4ZyLVrX_8pEep-47" value="&lt;span style=&quot;font-size: 13px&quot;&gt;客户端期待的body数据类型的权重&lt;br&gt;Accept: text/html,application/xml;q=0.9,*/*;q=0.8&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="340" y="1720" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbiFsUU4ZyLVrX_8pEep-49" value="&lt;div&gt;&lt;span&gt;服务器根据vary字段的内容返回报文&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Vary: Accept-Encoding,User-Agent,Accept&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="627" y="1640" width="253" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
