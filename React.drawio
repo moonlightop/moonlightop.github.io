@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T13:29:59.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Z-PEI25krIdjZWOesFud" version="14.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-29T13:35:08.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="NSFxcW21ad9QPLhhATRM" version="14.7.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="656" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1487,7 +1487,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tR5D_radtIEvOOEa09St" name="第 5 页">
-    <mxGraphModel dx="810" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7fZmxvt1phpdELhRz6tv-0" />
         <mxCell id="7fZmxvt1phpdELhRz6tv-1" parent="7fZmxvt1phpdELhRz6tv-0" />
@@ -1959,6 +1959,15 @@
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-56" value="no-cache&lt;br&gt;max-age=0" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="675" y="2160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7fZmxvt1phpdELhRz6tv-1" source="6uDJ8DGg2H99Oe5XKoGT-57" target="6uDJ8DGg2H99Oe5XKoGT-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-57" value="什么时候浏览器会使用缓存呢 ？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="670" y="2400" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-58" value="浏览器导航栏的&lt;br&gt;前进 后退" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="710" y="2513" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
