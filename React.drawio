@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T14:49:24.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="JJJ0XDzHbqPI8z45W5Y5" version="14.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-29T14:50:15.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="CaC3h9_0kUfzZlbrR64W" version="14.7.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="656" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1986,7 +1986,7 @@
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-66" value="&lt;font color=&quot;#ff0000&quot;&gt;Ctrl F5 普通请求&lt;br&gt;获取最新资源&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="660" y="2100" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-67" value="&lt;font color=&quot;#ff0000&quot;&gt;F5 进行条件请求&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-67" value="&lt;font color=&quot;#ff0000&quot;&gt;F5 进行&lt;b&gt;条件请求&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="790" y="2130" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-70" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;If-None-Match +&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;If-Modified-Since&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
