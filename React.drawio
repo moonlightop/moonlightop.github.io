@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T09:32:35.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="rxJRN7C3qP6fSjmdejcq" version="14.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-30T09:37:32.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="0iyucw5oLd21ICNVGn6Q" version="14.7.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="626" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1487,10 +1487,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tR5D_radtIEvOOEa09St" name="第 5 页">
-    <mxGraphModel dx="2151" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1544" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7fZmxvt1phpdELhRz6tv-0" />
         <mxCell id="7fZmxvt1phpdELhRz6tv-1" parent="7fZmxvt1phpdELhRz6tv-0" />
+        <mxCell id="b1EYU3-2L9JWp9mUlEYw-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="1300" y="2180" width="360" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="bbiFsUU4ZyLVrX_8pEep-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry y="1280" width="1200" height="530" as="geometry" />
         </mxCell>
@@ -2115,6 +2118,9 @@
         </mxCell>
         <mxCell id="b1EYU3-2L9JWp9mUlEYw-44" value="Add ETag heade&lt;font color=&quot;#ff0000&quot;&gt;r&lt;/font&gt;&lt;br&gt;or&amp;nbsp;&lt;br&gt;Add Last-modified header" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="1043.38" y="2770" width="183.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1EYU3-2L9JWp9mUlEYw-47" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;max-age &amp;lt;= 0 的效果等同于 max-age=0&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="280" y="2590" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
