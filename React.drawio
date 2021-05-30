@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T01:50:50.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="90kz3THYMiyWD0VieNu7" version="14.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-30T04:45:07.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="KpT9P2nmIvrNlgx2Stnw" version="14.7.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="733" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1993,37 +1993,58 @@
           <mxGeometry x="820.75" y="2190" width="118.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-0" value="按缓存位置分类" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="80" y="2520" width="120" height="40" as="geometry" />
+          <mxGeometry x="75" y="2600" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7fZmxvt1phpdELhRz6tv-1" source="QX5MY1WKuvE4ASk107oU-1" target="QX5MY1WKuvE4ASk107oU-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-1" value="memory cache" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="80" y="2640" width="120" height="40" as="geometry" />
+          <mxGeometry x="73" y="2820" width="167" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7fZmxvt1phpdELhRz6tv-1" source="QX5MY1WKuvE4ASk107oU-3" target="QX5MY1WKuvE4ASk107oU-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-3" value="disk cache" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="80" y="2700" width="120" height="40" as="geometry" />
+          <mxGeometry x="75" y="2960" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-5" value="Service Worker" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="80" y="2580" width="120" height="40" as="geometry" />
+          <mxGeometry x="75" y="2690" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-7" value="network" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="547" y="2640" width="120" height="40" as="geometry" />
+          <mxGeometry x="680" y="2780" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QX5MY1WKuvE4ASk107oU-9" value="&lt;font color=&quot;#ff0000&quot;&gt;preload&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="240" y="2640" width="100" height="40" as="geometry" />
+        <mxCell id="QX5MY1WKuvE4ASk107oU-9" value="&lt;font color=&quot;#ff0000&quot;&gt;preloader&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="300" y="2780" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-11" value="&lt;font color=&quot;#ff0000&quot;&gt;HTTP cache&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="240" y="2700" width="100" height="40" as="geometry" />
+          <mxGeometry x="300" y="2960" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QX5MY1WKuvE4ASk107oU-14" value="Application/&lt;font color=&quot;#ff0000&quot;&gt;Cache Storage&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="200" y="2580" width="200" height="40" as="geometry" />
+          <mxGeometry x="220" y="2690" width="175" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QX5MY1WKuvE4ASk107oU-15" value="跟localStorage很相似" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="400" y="2580" width="160" height="40" as="geometry" />
+        <mxCell id="QX5MY1WKuvE4ASk107oU-15" value="容器超过限制被浏览器清空&lt;br&gt;主动调用API清除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="395" y="2680" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-16" value="访问内存的速度 &amp;gt; 磁盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="73" y="2780" width="167" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7fZmxvt1phpdELhRz6tv-1" source="QX5MY1WKuvE4ASk107oU-1" target="QX5MY1WKuvE4ASk107oU-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-17" value="浏览器的TAB关闭后&lt;br&gt;或缓存时间过期&lt;b&gt;失效&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="73" y="2860" width="167" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-18" value="&lt;font color=&quot;#ff0000&quot;&gt;preload&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="300" y="2860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-20" value="&amp;lt;link rel=&quot;preload&quot;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="400" y="2860" width="167" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-21" value="解析执行js/css同时，通过preloader下载过来的资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="400" y="2770" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QX5MY1WKuvE4ASk107oU-22" value="缓存时间过期&lt;b&gt;失效&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="75" y="3000" width="165" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
