@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T12:37:34.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="tv6AJcmNgfS7iG0-ePnX" version="14.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-30T12:44:09.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="C1GEIk76CiTIuBwMi6us" version="14.7.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="614" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1487,7 +1487,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tR5D_radtIEvOOEa09St" name="第 5 页">
-    <mxGraphModel dx="2971" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2121" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7fZmxvt1phpdELhRz6tv-0" />
         <mxCell id="7fZmxvt1phpdELhRz6tv-1" parent="7fZmxvt1phpdELhRz6tv-0" />
@@ -1975,8 +1975,8 @@
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot; color=&quot;#ff0000&quot;&gt;请求报文&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="774" y="2030" width="87.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-56" value="max-age=0" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="665" y="2520" width="110" height="30" as="geometry" />
+        <mxCell id="6uDJ8DGg2H99Oe5XKoGT-56" value="max-age=0&lt;br&gt;获取&lt;font color=&quot;#ff0000&quot;&gt;最新生成的&lt;br&gt;响应报文&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
+          <mxGeometry x="662.5" y="2510" width="115" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-63" value="no-cache" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="535" y="2190" width="90" height="30" as="geometry" />
@@ -2065,7 +2065,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="900" y="2245" />
-              <mxPoint x="900" y="2535" />
+              <mxPoint x="900" y="2545" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2126,10 +2126,10 @@
           <mxGeometry x="1154.88" y="2755" width="183.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b1EYU3-2L9JWp9mUlEYw-47" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;1.&amp;nbsp; &amp;nbsp;max-age &amp;lt;= 0 的效果等同于 max-age=0&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="287" y="2590" width="290" height="20" as="geometry" />
+          <mxGeometry x="287" y="2610" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rtl53CeM0_Hf2eAhWRbm-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;2.&amp;nbsp; 缓存存储的是整个报文&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="287" y="2620" width="170" height="20" as="geometry" />
+          <mxGeometry x="287" y="2640" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rtl53CeM0_Hf2eAhWRbm-4" value="&lt;font color=&quot;#ff0000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;协商缓存&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="530" y="2410" width="70" height="20" as="geometry" />
@@ -2138,7 +2138,10 @@
           <mxGeometry x="1413" y="2060" width="168.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rtl53CeM0_Hf2eAhWRbm-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="397.5" y="2665" width="20" height="20" as="geometry" />
+          <mxGeometry x="397.5" y="2685" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rtl53CeM0_Hf2eAhWRbm-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;3.&amp;nbsp; 强制缓存中 no-cache &amp;lt;=&amp;gt; max-age=0,must-revalidate&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
+          <mxGeometry x="285" y="2670" width="380" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
