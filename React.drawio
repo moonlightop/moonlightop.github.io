@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T14:47:53.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3OOwNm4q3-kz1fUUDnKh" version="14.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-31T14:49:49.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="5hKH-N3PcvFHtNz3qQld" version="14.7.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="698" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1853,7 +1853,7 @@
           <mxGeometry x="1040" y="740" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-11" value="no-store" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1411.5" y="2105" width="80" height="40" as="geometry" />
+          <mxGeometry x="1411.5" y="2115" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="7fZmxvt1phpdELhRz6tv-1" source="6uDJ8DGg2H99Oe5XKoGT-13" target="6uDJ8DGg2H99Oe5XKoGT-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1862,10 +1862,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-13" value="允许缓存 ？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1181.5" y="2105" width="130" height="40" as="geometry" />
+          <mxGeometry x="1181.5" y="2115" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-15" value="不允许" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1328" y="2095" width="53.5" height="30" as="geometry" />
+          <mxGeometry x="1328" y="2105" width="53.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="7fZmxvt1phpdELhRz6tv-1" source="6uDJ8DGg2H99Oe5XKoGT-16" target="6uDJ8DGg2H99Oe5XKoGT-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1916,7 +1916,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-28" value="缓存过期后必须验证 ？" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1180.5" y="2325" width="131" height="40" as="geometry" />
+          <mxGeometry x="1181.5" y="2320" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-30" value="不需要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="1248.25" y="2280" width="53.5" height="30" as="geometry" />
@@ -1933,13 +1933,13 @@
           <mxGeometry x="1338.13" y="2315" width="53.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-35" value="不需要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1248" y="2405" width="53.5" height="30" as="geometry" />
+          <mxGeometry x="1248.25" y="2393" width="53.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-42" value="max-age=x" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="1401.5" y="2700" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-48" value="如：秒杀页面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1491.5" y="2105" width="90" height="40" as="geometry" />
+          <mxGeometry x="1491.5" y="2115" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uDJ8DGg2H99Oe5XKoGT-49" value="以响应报文创建时间（Date）开始计时，单位秒" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="1491.5" y="2700" width="270" height="40" as="geometry" />
@@ -2098,7 +2098,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b1EYU3-2L9JWp9mUlEYw-21" value="允许代理服务器缓存 ？" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
-          <mxGeometry x="1176" y="2460" width="140" height="45" as="geometry" />
+          <mxGeometry x="1177" y="2460" width="140" height="45" as="geometry" />
         </mxCell>
         <mxCell id="b1EYU3-2L9JWp9mUlEYw-26" value="不允许" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7fZmxvt1phpdELhRz6tv-1" vertex="1">
           <mxGeometry x="1248.25" y="2505" width="53.5" height="30" as="geometry" />
@@ -2223,7 +2223,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="plBQhIG4oWdwWNpbht7n-8" value="客户端缓存过期到代理验证 ？" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
-          <mxGeometry x="1423" y="2330" width="177" height="30" as="geometry" />
+          <mxGeometry x="1423" y="2320" width="177" height="40" as="geometry" />
         </mxCell>
         <mxCell id="plBQhIG4oWdwWNpbht7n-14" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7fZmxvt1phpdELhRz6tv-1">
           <mxGeometry x="1458" y="2363" width="53.5" height="30" as="geometry" />
