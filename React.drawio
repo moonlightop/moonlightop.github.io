@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-07T03:13:39.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="3FECR4XY3qGVWGDFVvgc" version="14.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-07T03:15:08.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="HvLSJgyg-X3hfh54HyGe" version="14.9.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="734" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -257,6 +257,9 @@
         <mxCell id="CPkTHtr-fFRMULJlqNrF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CPkTHtr-fFRMULJlqNrF-1" target="CPkTHtr-fFRMULJlqNrF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CPkTHtr-fFRMULJlqNrF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CPkTHtr-fFRMULJlqNrF-1" target="CPkTHtr-fFRMULJlqNrF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-1" value="第一个参数非函数类型的处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1133" y="1220" width="215" height="40" as="geometry" />
         </mxCell>
@@ -264,22 +267,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-3" value="申请大小相同的数组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="942.5" y="1360" width="160" height="40" as="geometry" />
+          <mxGeometry x="940" y="1400" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CPkTHtr-fFRMULJlqNrF-5" target="CPkTHtr-fFRMULJlqNrF-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-5" value="for in遍历可枚举属性，沿着原型链上找" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="907.5" y="1440" width="230" height="50" as="geometry" />
+          <mxGeometry x="905" y="1480" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-7" value="执行回调函数并传递参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="942.5" y="1530" width="160" height="40" as="geometry" />
+          <mxGeometry x="940" y="1570" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CPkTHtr-fFRMULJlqNrF-9" target="CPkTHtr-fFRMULJlqNrF-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CPkTHtr-fFRMULJlqNrF-9" value="map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="960" y="1281" width="125" height="39" as="geometry" />
+          <mxGeometry x="957.5" y="1321" width="125" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="CPkTHtr-fFRMULJlqNrF-12" value="reduce" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1178" y="1321" width="125" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
