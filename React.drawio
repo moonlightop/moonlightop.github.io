@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T09:05:38.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="xP1U3SmLtmbzDZeKE21q" version="14.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-11T09:06:43.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="UyslfKl_gDwPJKgz52yU" version="14.9.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1560" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2594" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -687,17 +687,15 @@
         <mxCell id="Lr-vMIC5Q7eql0kCb_T0-42" value="&lt;b&gt;3. &lt;/b&gt;依次转交所有到期的延时任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="427" y="2570" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Lr-vMIC5Q7eql0kCb_T0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#0000CC;entryX=0.491;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Lr-vMIC5Q7eql0kCb_T0-7">
+        <mxCell id="Lr-vMIC5Q7eql0kCb_T0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#0000CC;entryX=0.491;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.63;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Lr-vMIC5Q7eql0kCb_T0-43" target="Lr-vMIC5Q7eql0kCb_T0-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="359" y="2968" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lr-vMIC5Q7eql0kCb_T0-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.468;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Lr-vMIC5Q7eql0kCb_T0-43" target="Lr-vMIC5Q7eql0kCb_T0-8">
+        <mxCell id="55WtR0HerJqVdWTjJ6qC-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.455;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classicThin;endFill=0;strokeColor=#000000;exitX=0.231;exitY=0.061;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Lr-vMIC5Q7eql0kCb_T0-43" target="Lr-vMIC5Q7eql0kCb_T0-8">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="186" y="2990" />
-            </Array>
+            <mxPoint x="182" y="2966" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lr-vMIC5Q7eql0kCb_T0-43" value="其它进程通过IPC将宏任务转交给渲染器进程" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
