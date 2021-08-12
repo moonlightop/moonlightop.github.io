@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T03:43:35.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Y_IcjND9nU22890qb5iq" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T03:52:27.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="SzTS75UuBnPjsArLMAPJ" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1560" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1019,7 +1019,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-29" value="Timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="442" y="4480" width="128" height="40" as="geometry" />
+          <mxGeometry x="417.5" y="4480" width="178" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3uq-2Lj28lCr3CaxttSQ-31" target="3uq-2Lj28lCr3CaxttSQ-32">
           <mxGeometry relative="1" as="geometry" />
@@ -1057,8 +1057,8 @@
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-45" value="处理setImmediate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="84" y="4840" width="118" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3uq-2Lj28lCr3CaxttSQ-47" value="采用最小堆存储定时器的回调，并到期处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="441" y="4520" width="129" height="70" as="geometry" />
+        <mxCell id="3uq-2Lj28lCr3CaxttSQ-47" value="采用最小堆存储定时器的回调，并到期处理，但超过系统限制的最大数量，则跳过该阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="416.5" y="4520" width="179" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-48" value="优先级大于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="466" y="4680" width="80" height="20" as="geometry" />
