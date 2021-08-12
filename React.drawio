@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T14:21:31.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="89Kk4AjI3HHBf0T9moqF" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T14:28:18.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="PYxfGiEiVKi7LUjMYNxe" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2328" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,8 +1005,8 @@
             <mxPoint x="805.75" y="4920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-68" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="4960" width="150" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-68" value="microTaskQueue&lt;br&gt;nextTickQueue&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="4960" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-25" value="check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="4920" width="120" height="40" as="geometry" />
@@ -1021,7 +1021,7 @@
           <mxGeometry x="10.000000000000014" y="4460" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-32" value="idle，prepare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="731.5" y="4720" width="150" height="40" as="geometry" />
+          <mxGeometry x="731.5" y="4720" width="148.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-36" value="process.nextTick优先级大于Promise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="397.5" y="4720" width="225" height="40" as="geometry" />
@@ -1038,7 +1038,7 @@
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-67" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="117" y="4620" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3uq-2Lj28lCr3CaxttSQ-73" value="准备切换到下一个阶段时，执行microTaskQueue" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3uq-2Lj28lCr3CaxttSQ-73" value="准备切换到下一个阶段时，&lt;br&gt;执行microTaskQueue" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="397.5" y="4760" width="225" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-27" value="close callbacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1066,23 +1066,23 @@
             <mxPoint x="602" y="4960" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-36" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="4610" width="180" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-36" value="microTaskQueue&lt;br&gt;nextTickQueue&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="4610" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ujChy10ALeni7Gi8yaQS-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujChy10ALeni7Gi8yaQS-63" target="3uq-2Lj28lCr3CaxttSQ-32">
           <mxGeometry x="10.000000000000014" y="4460" as="geometry" />
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-63" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="731.5" y="4610" width="148.5" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-63" value="microTaskQueue&lt;br&gt;nextTickQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="731.5" y="4610" width="148.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-65" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="731.5" y="4760" width="148.5" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-65" value="microTaskQueue&lt;br&gt;nextTickQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="731.5" y="4760" width="148.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-69" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="4960" width="120" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-69" value="microTaskQueue&lt;br&gt;nextTickQueue&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="4960" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-70" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="4870" width="120" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-70" value="microTaskQueue&lt;br&gt;nextTickQueue&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="4870" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ujChy10ALeni7Gi8yaQS-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujChy10ALeni7Gi8yaQS-71" target="ujChy10ALeni7Gi8yaQS-75">
           <mxGeometry relative="1" as="geometry" />
@@ -1099,8 +1099,8 @@
         <mxCell id="ujChy10ALeni7Gi8yaQS-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujChy10ALeni7Gi8yaQS-77" target="3uq-2Lj28lCr3CaxttSQ-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-77" value="microTaskQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="151" y="4480" width="120" height="30" as="geometry" />
+        <mxCell id="ujChy10ALeni7Gi8yaQS-77" value="microTaskQueue&lt;br&gt;nextTickQueue&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="151" y="4480" width="119" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
