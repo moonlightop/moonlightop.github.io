@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T08:33:34.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Xu0qX41wFI1cWS3aRixL" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T08:46:23.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="yaNaVxUjP2_okhO8K75X" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2328" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1560" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -997,13 +997,13 @@
         <mxCell id="ujChy10ALeni7Gi8yaQS-31" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10.000000000000014" y="4460" width="871.5" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="3uq-2Lj28lCr3CaxttSQ-25" value="Check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
+        <mxCell id="3uq-2Lj28lCr3CaxttSQ-25" value="check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
           <mxGeometry x="436" y="460" width="118" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3uq-2Lj28lCr3CaxttSQ-29" value="Timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
+        <mxCell id="3uq-2Lj28lCr3CaxttSQ-29" value="timers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
           <mxGeometry x="331" y="110" width="178" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3uq-2Lj28lCr3CaxttSQ-31" value="Pending i/o callbacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
+        <mxCell id="3uq-2Lj28lCr3CaxttSQ-31" value="pending I/O callbacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
           <mxGeometry x="625" y="110" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ujChy10ALeni7Gi8yaQS-31" source="3uq-2Lj28lCr3CaxttSQ-29" target="3uq-2Lj28lCr3CaxttSQ-31">
@@ -1049,7 +1049,7 @@
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-73" value="在切换阶段的间隙尽快执行" style="whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
           <mxGeometry x="385" y="310" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3uq-2Lj28lCr3CaxttSQ-27" value="Close callbacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
+        <mxCell id="3uq-2Lj28lCr3CaxttSQ-27" value="close callbacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
           <mxGeometry x="142" y="350" width="118" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ujChy10ALeni7Gi8yaQS-31" source="3uq-2Lj28lCr3CaxttSQ-25" target="3uq-2Lj28lCr3CaxttSQ-27">
@@ -1076,7 +1076,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujChy10ALeni7Gi8yaQS-1" value="Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
+        <mxCell id="ujChy10ALeni7Gi8yaQS-1" value="poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ujChy10ALeni7Gi8yaQS-31">
           <mxGeometry x="732.5" y="460" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ujChy10ALeni7Gi8yaQS-31" source="ujChy10ALeni7Gi8yaQS-1" target="3uq-2Lj28lCr3CaxttSQ-25">
