@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T06:44:49.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="6NVP--wUI1tcyAivWqj5" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-14T06:49:15.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="XtpxjDCzisSscJCbVF4s" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2328" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1034,7 +1034,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-73" value="一个阶段完成后，另一个阶段开始前执行&lt;br&gt;或main line完成后，进入loop前执行" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="376.25" y="4690" width="225" height="40" as="geometry" />
+          <mxGeometry x="376.25" y="4640" width="225" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3uq-2Lj28lCr3CaxttSQ-27" value="close callbacks" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="61" y="4920" width="119" height="40" as="geometry" />
@@ -1168,6 +1168,9 @@
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-18" value="若有异步任务回调需要处理，阻塞时间为0&lt;br&gt;若无，取最近的定时器作为阻塞时间&lt;br&gt;（范围为：[0,&amp;nbsp;&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;andale mono&amp;#34; , &amp;#34;lucida console&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14.4px ; background-color: rgb(246 , 246 , 246)&quot;&gt;INT_MAX]&lt;/span&gt;）&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="THMzqMj3c5KLBmhk-eQt-49">
           <mxGeometry x="10" y="5" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-54" value="&lt;font color=&quot;#ff0000&quot;&gt;小心递归造成其&amp;nbsp; 它队列饥饿现象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="393.75" y="4710" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
