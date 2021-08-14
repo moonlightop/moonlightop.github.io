@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T05:42:14.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="dcSxw7EXxv5kkvwQnOPg" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-14T05:43:21.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="koTbPVyqtkk_xTq2d7tH" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2328" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1148,6 +1148,9 @@
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-29" value="计算阻塞时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="720" y="5000" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-34" value="执行上一次循环未完成但到此阶段前已完成的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="4580" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
