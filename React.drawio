@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T12:32:07.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="qA4-r1YmAI2XDFxhLNxq" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-14T02:04:38.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="9k2yoV73rEZQokReiykB" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1560" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1105,8 +1105,38 @@
         <mxCell id="ujChy10ALeni7Gi8yaQS-79" value="socket, http连接或读取文件等成功后的回调加入FIFO队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="890" y="4910" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U3tAO1nQvLH3HEoYqRdF-3" value="uv_run(uv_loop_t*&amp;nbsp; loop, uv_run_mode&amp;nbsp; mode)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="98" y="5120" width="281" height="40" as="geometry" />
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-0" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="5120" as="sourcePoint" />
+            <mxPoint x="430" y="5120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-1" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="5120" as="sourcePoint" />
+            <mxPoint x="560" y="5120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-2" value="" style="endArrow=none;html=1;strokeColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="5080" as="sourcePoint" />
+            <mxPoint x="560" y="5160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-4" value="" style="endArrow=none;html=1;strokeColor=#0000CC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459.5" y="5080" as="sourcePoint" />
+            <mxPoint x="459.5" y="5160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-7" value="到期时间：handle -&amp;gt; timeout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="5060" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-8" value="diff" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495" y="5140" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-9" value="loop -&amp;gt; time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="5060" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
