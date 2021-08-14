@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T02:45:17.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="q92eC-uSq3Mwuo7f9AUS" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-14T02:45:39.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="-gWFqOj3zxdz8UfxPkeN" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2328" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="20" y="4890" width="530" height="170" as="geometry" />
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="4540" width="480" height="290" as="geometry" />
+          <mxGeometry x="680" y="4540" width="450" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Lr-vMIC5Q7eql0kCb_T0-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#EA6B66;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="2310" width="720" height="480" as="geometry" />
@@ -1147,7 +1147,7 @@
           <mxGeometry x="195" y="5030" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-16" value="pending或idle，prepare若有异步任务回调&lt;br&gt;需要处理，poll阶段阻塞时间为0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="894.49" y="4660" width="240" height="30" as="geometry" />
+          <mxGeometry x="880" y="4676" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-18" value="若都无，调整计时器的最小堆，取堆顶与循环的时间比较，&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;大则返回差值，小则返回0，用此作为阻塞时间，&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;b&gt;以等待新异步事件完成&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="5015" width="350" height="50" as="geometry" />
