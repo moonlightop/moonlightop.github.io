@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T06:07:20.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="FXLlVmHRHeZarkOrzPsg" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-14T06:08:02.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="LkkbHGmHCVCGweIYW0x_" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2328" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-42" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=none;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="5040" width="262" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=none;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="4570" width="350" height="80" as="geometry" />
         </mxCell>
@@ -1136,7 +1139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-18" value="若有异步任务回调需要处理，阻塞时间为0&lt;br&gt;若无，取最近的定时器作为阻塞时间&lt;br&gt;（范围为：[0,&amp;nbsp;&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;andale mono&amp;#34; , &amp;#34;lucida console&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14.4px ; background-color: rgb(246 , 246 , 246)&quot;&gt;INT_MAX]&lt;/span&gt;）&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="5040" width="240" height="50" as="geometry" />
+          <mxGeometry x="450" y="5045" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="THMzqMj3c5KLBmhk-eQt-19" target="3uq-2Lj28lCr3CaxttSQ-29">
           <mxGeometry relative="1" as="geometry" />
@@ -1150,13 +1153,8 @@
         <mxCell id="THMzqMj3c5KLBmhk-eQt-28" value="轮询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="720" y="4960" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="THMzqMj3c5KLBmhk-eQt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="THMzqMj3c5KLBmhk-eQt-29" target="THMzqMj3c5KLBmhk-eQt-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="5010" />
-              <mxPoint x="570" y="5010" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="THMzqMj3c5KLBmhk-eQt-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="THMzqMj3c5KLBmhk-eQt-29" target="THMzqMj3c5KLBmhk-eQt-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="THMzqMj3c5KLBmhk-eQt-29" value="计算轮询超时时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="720" y="4990" width="150" height="50" as="geometry" />
