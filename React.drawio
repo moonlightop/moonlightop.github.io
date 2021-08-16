@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T07:29:38.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="xCPJi2t3DDASA5eiUHjo" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-16T07:34:06.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ajpE-VfBZhiZia4-xNjD" version="14.9.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1560" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1205,8 +1205,14 @@
         <mxCell id="6sBf0tqVub5XQTE8VW5A-14" value="整数部分拼接点，再拼接小数部分" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="286" y="5760" width="196" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uciUBCmvm18QsNJi1-s2-0" target="uciUBCmvm18QsNJi1-s2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-0" value="on" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920.86" y="5120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uciUBCmvm18QsNJi1-s2-1" target="uciUBCmvm18QsNJi1-s2-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-1" value="once" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920.86" y="5200" width="80" height="40" as="geometry" />
@@ -1215,13 +1221,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-2" value="removeListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="920.86" y="5360" width="120" height="40" as="geometry" />
+          <mxGeometry x="903.5" y="5360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uciUBCmvm18QsNJi1-s2-4" target="uciUBCmvm18QsNJi1-s2-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-4" value="emit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920.86" y="5280" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uciUBCmvm18QsNJi1-s2-5" target="uciUBCmvm18QsNJi1-s2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-5" value="触发newListener事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040.86" y="5120" width="159.14" height="40" as="geometry" />
+          <mxGeometry x="1080" y="5120" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uciUBCmvm18QsNJi1-s2-6" target="uciUBCmvm18QsNJi1-s2-8">
           <mxGeometry relative="1" as="geometry" />
@@ -1230,7 +1242,16 @@
           <mxGeometry x="1078.36" y="5360" width="159.14" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uciUBCmvm18QsNJi1-s2-8" value="按事件类型 &amp;amp; 绑定的回调函数&lt;br&gt;来移除监听" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1280.86" y="5350" width="179.14" height="60" as="geometry" />
+          <mxGeometry x="1320" y="5350" width="179.14" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-11" value="绑定指定事件类型的回调函数&lt;br&gt;由flag决定push还是unshift" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="5110" width="179.14" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-13" value="调用一次后移除它" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1081" y="5200" width="199" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uciUBCmvm18QsNJi1-s2-14" value="触发某个事件类型的所有回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="5280" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
